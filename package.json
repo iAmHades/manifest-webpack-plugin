@@ -1,0 +1,26 @@
+{
+  "name": "manifest-webpack-plugin",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "用于生成manifest文件",
+  "author": "hades",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iAmHades/manifest-webpack-plugin.git"
+  },
+  "keywords": [
+    "manifest",
+    "webpack",
+    "plugin",
+    "deplay",
+    "appcache",
+    "h5",
+    "cache"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "colors": "1.1.2",
+    "lei-stream": "1.0.5"
+  }
+}
