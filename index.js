@@ -48,13 +48,15 @@ ManifestWebpackPlugin.prototype.oposs = function() {
 		newline: '\n',
 		cacheLines: 0
 	});
-	s.write('CACHE MANIFEST',function(){});
+	s.write('CACHE MANIFEST', function() {});
 	for (var i = 0; i < _this.fileArray.length; i++) {
 		var file = _this.fileArray[i];
-		s.write(_this.options.publicPath+file.split('/').pop(), function() {
+		s.write(_this.options.publicPath + file.split('/').pop(), function() {
 
 		});
 	}
+	s.write('NETWORK:', function() {});
+	s.write('*', function() {});
 	// 结束
 	s.end(function() {
 		console.log('manifest has been success created.');
