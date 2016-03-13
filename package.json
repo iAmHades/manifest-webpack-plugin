@@ -1,5 +1,5 @@
 {
-  "name": "manifest-webpack-plugin",
+  "name": "manifestfile-webpack-plugin",
   "version": "0.1.0",
   "main": "index.js",
   "description": "用于生成manifest文件",
